@@ -1,11 +1,25 @@
 {
   "name": "prj-html5-blog",
-  "private": true,
   "dependencies": {
-    "modernizr": "~2.8.1"
+    "jquery": "~2.1.4"
   },
   "devDependencies": {
     "chai": "~3.4.0",
     "mocha": "~2.3.3"
-  }
+  },
+  "homepage": "https://github.com/ricmclaughlin/prj_html5_blog",
+  "authors": [
+    "ric mclaughlin <ric@mclaughlin.today>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
