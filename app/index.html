@@ -15,7 +15,9 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+
     <!-- endbuild -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -87,7 +89,7 @@
       </section>
       <div class="clearfix"></div>
       <footer id="main-footer">
-        <div class="container">
+        <!-- <div class="container"> -->
           <div class="footer-right">
             <nav class="footer-nav">
               <ul>
@@ -103,28 +105,17 @@
               <ul>
                 <li><a href="#">Web Development</a></li>
                 <li><a href="#">Design</a></li>
-                <li><a href="#">SEO & Marketing</a></li>
-                <li><a href="#">Cloud & Hosting</a></li>
+                <li><a href="#">SEO &amp; Marketing</a></li>
+                <li><a href="#">Cloud &amp; Hosting</a></li>
                 <li><a href="#">Gadgets</a></li>
                 <li><a href="#">Software</a></li>
               </ul>
             </nav>
-            <nav class="footer-nav">
-              <ul>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">SEO & Marketing</a></li>
-                <li><a href="#">Cloud & Hosting</a></li>
-                <li><a href="#">Gadgets</a></li>
-                <li><a href="#">Software</a></li>
-              </ul>
-            </nav>
-
           </div>
           <div class="footer-left">
-            <p class="copy">Copyright &copy; 2015, The TechEdge</p>
+            <p class="copy">Copyright &copy; 2015,<br>The TechEdge</p> 
           </div>          
-        </div>
+        <!-- </div> -->
       </footer>
       
     </div>
@@ -137,14 +128,5 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
-
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/main.js -->
-    
-    <!-- endbuild -->
   </body>
 </html>
