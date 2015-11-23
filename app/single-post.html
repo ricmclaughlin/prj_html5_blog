@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome | HTML5 Blog</title>
+    <title>Welcome | Single Post</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -75,17 +75,42 @@
           </header>
           <img src="images/blog1.jpg" alt="Post 1">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium est sapiente temporibus dicta impedit, perspiciatis placeat similique asperiores officia nulla neque vel reprehenderit itaque quidem rem ipsum cum! Alias, consequatur?</p>
-          <footer><a href="single-post.html" class="readmore">Read More</a></footer>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nostrum provident, enim ullam eius ab necessitatibus, architecto laudantium voluptate laboriosam deserunt, aut alias iure, dicta iste eaque veniam similique itaque!</p>
+          <p>Expedita, quas facilis neque asperiores dolorem animi vitae fuga, quisquam placeat rerum dicta! Consequuntur quos voluptatem deserunt debitis explicabo, commodi asperiores esse assumenda excepturi, quia doloribus facilis iusto nihil similique.</p>
         </article>
-        <article>
-          <header>
-            <h2>Fundamentals every web designer needs to understand</h2>
-            <div class="meta">Posted by <strong>Ric McLaughlin 1 day ago</strong><span>(2 Comments)</span>  </div>
-          </header>
-          <img src="images/blog2.jpg" alt="Post 1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium est sapiente temporibus dicta impedit, perspiciatis placeat similique asperiores officia nulla neque vel reprehenderit itaque quidem rem ipsum cum! Alias, consequatur?</p>
-          <footer><a href="single-post.html" class="readmore">Read More</a></footer>
-        </article>
+        <footer id="comments">
+            <comment>
+              <h3>Recent Comments</h3>
+              <div class="comment-left">
+                <img src="images/avatar.png" alt="">
+              </div>
+              <div class="comment-right">
+                <strong>John String</strong> Wrote:
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid a qui tempora veniam voluptates reiciendis, minus eos, omnis nobis mollitia facilis optio inventore.</p>
+              </div>
+            </comment>
+            <div class="clearfix"></div>
+            <comment>
+              <div class="comment-left">
+                <img src="images/avatar.png" alt="">
+              </div>
+              <div class="comment-right">
+                <strong>Bob Strongler</strong> Wrote:
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid a qui tempora veniam voluptates reiciendis, minus eos, omnis nobis mollitia facilis optio inventore.</p>
+              </div>
+            </comment>
+            <!-- <div class="clearfix"></div> -->
+            <div class="comment-form">
+              <h3>Leave Comment</h3>
+              <form action="">
+                <p><label for="">Name: </label><input type="text"></p>
+                <p><label for="">Email: </label><input type="email"></p>
+                <p><label for="">Comment: </label><textarea></textarea> </p>
+                <p><button>Add Comment</button></p>
+              </form>
+            </div>
+            
+          </footer>
       </section>
       <div class="clearfix"></div>
       <footer id="main-footer">
