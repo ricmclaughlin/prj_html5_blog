@@ -193,6 +193,7 @@ article .readmore:hover {
 
 .ad img{
   width: 100%;
+  margin-bottom: 20px;
 }
 
 #main-footer {
@@ -318,5 +319,68 @@ article .meta span {
   padding: 3px;
   width: 97%;
 } 
+
+@media only screen and (max-width: 900px){
+  #branding h1 {
+    display: none;
+  }
+
+  #branding {
+    width: 20%;
+  }
+
+  #main-nav {
+    width: 80%;
+  }
+
+  #sidebar {
+    float: none;
+    width: 100%;
+  }
+
+  #content {
+    float: none;
+    width: 88%;
+  }
+  #main-footer {
+    float: none;
+    width: 88%;
+  }
+
+  #main-footer .footer-left, #main-footer .footer-right {
+    float: none;
+    width: 100%;
+  }
+  #main-footer .footer-nav {
+    float: none;
+    width: 100%;
+  }
+  #main-footer .copy {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  #main-nav li {
+    margin: 0 5px;
+    padding: 3px 3px 0 3px;
+    font-size: 13px;
+    list-style-type: none;
+  }
+  #content {
+    width: 87%;
+  }
+
+  #main-footer {
+    width: 87%;
+  }
+}
+
+
+
+
+
+
+
 
 
